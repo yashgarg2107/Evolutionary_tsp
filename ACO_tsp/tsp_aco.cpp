@@ -6,7 +6,7 @@
 
 int main()
 {
-	char cities[] = "datasets/ex8.txt";
+	char cities[] = "datasets/ex5.txt";
 
 	// if distances directly provided without coordinates use follow_dist function
 	// --------------------------
