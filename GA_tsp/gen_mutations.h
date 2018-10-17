@@ -98,6 +98,6 @@ void mutate()
 		// 		part_shuff(population[i].path);
 		// }
 		
-		uhx_mutation(population[i].path);		// use with vgx, uhx only // comment above block, but with pmx,erx use above block and comment this line
+		uhx_mutation(population[i].path);		// use with vgx, uhx only // comment above block // but with pmx,ox use above block and comment this line
 	}
 }
