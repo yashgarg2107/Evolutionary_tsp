@@ -1,5 +1,5 @@
 # Evolutionary_tsp
-Evolutionary AI approaches for solving Traveling Salesman Problem
+Evolutionary AI approaches for solving huge Traveling Salesman Problem
 
 1) tsp_brute.cpp -> brute force implementation for solving the TSP
 
