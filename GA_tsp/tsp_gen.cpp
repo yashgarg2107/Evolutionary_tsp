@@ -7,7 +7,7 @@
 
 int main()
 {
-	char cities[] = "datasets/ex4.txt";
+	char cities[] = "datasets/ex5.txt";
 
 	// if distances directly provided without coordinates use follow_dist function
 	// --------------------------
@@ -16,7 +16,7 @@ int main()
 	// else run these commands
 	// ---------------------------
 	store_points(cities);
-	calc_distances(1);
+	calc_distances(0);
 	// --------------------------
 	
 	clock_t start=clock();
@@ -46,8 +46,8 @@ int main()
 		uhx_crossover();
 		mutate();
 
-		if(i>200)			// can use other custom strategies 
-			fill_elites();
+		if(i>200)			// can use other custom strategies for vgx, uhx heuristic crossovers	
+			fill_elites();		// for pmx and ox crossover elitism is very important, so use it for every iteration
 
 		calc_fitness();
 
