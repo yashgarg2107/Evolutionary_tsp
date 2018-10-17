@@ -7,7 +7,7 @@
 
 int main()
 {
-	char cities[] = "datasets/ex11.txt";
+	char cities[] = "datasets/ex4.txt";
 
 	// if distances directly provided without coordinates use follow_dist function
 	// --------------------------
@@ -43,10 +43,10 @@ int main()
 
 		update_positions_gen();
 
-		vgx_crossover();
+		uhx_crossover();
 		mutate();
 
-		if(i>200)
+		if(i>200)			// can use other custom strategies 
 			fill_elites();
 
 		calc_fitness();
